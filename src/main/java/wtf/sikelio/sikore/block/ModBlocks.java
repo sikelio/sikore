@@ -8,12 +8,12 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import wtf.sikelio.sikore.Sikore;
 
 public class ModBlocks {
-    public static final Block SIKOIN_BLOCK = registerBlock("sikoin_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
+    public static final Block SIKOIN_ORE = registerBlock("sikoin_ore", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block SIKOIN_BLOCK = registerBlock("sikoin_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

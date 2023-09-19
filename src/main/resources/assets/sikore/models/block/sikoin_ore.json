@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "sikore:block/sikoin_block"
+    "all": "sikore:block/sikoin_ore"
   }
 }

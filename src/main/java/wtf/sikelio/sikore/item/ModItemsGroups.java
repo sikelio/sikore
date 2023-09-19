@@ -21,6 +21,7 @@ public class ModItemsGroups {
 
                 // BLOCKS
                 entries.add(ModBlocks.SIKOIN_BLOCK);
+                entries.add(ModBlocks.SIKOIN_ORE);
             }).build()
     );
 
