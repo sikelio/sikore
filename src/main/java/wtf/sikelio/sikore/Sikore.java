@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import wtf.sikelio.sikore.block.ModBlocks;
 import wtf.sikelio.sikore.item.ModItems;
 import wtf.sikelio.sikore.item.ModItemsGroups;
 
@@ -14,6 +15,8 @@ public class Sikore implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemsGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
