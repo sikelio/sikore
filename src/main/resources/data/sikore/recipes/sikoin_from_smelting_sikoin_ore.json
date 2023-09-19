@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 500,
+  "experience": 2,
+  "group": "sikoin",
+  "ingredient": {
+    "item": "sikore:sikoin_ore"
+  },
+  "result": "sikore:sikoin"
+}

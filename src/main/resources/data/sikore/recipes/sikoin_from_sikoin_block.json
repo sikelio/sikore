@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "sikore:sikoin_block"
+    }
+  ],
+  "result": {
+    "item": "sikore:sikoin",
+    "count": 9
+  }
+}
